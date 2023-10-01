@@ -1,24 +1,33 @@
 * {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Courier New', serif;
 } 
 .marker {
   color: blue;
   font-weight: bold;
   display: block;
   margin: 1em;
+  margin-right: 0;
 }
 
 
 .person-0 {
-  color: magenta;
+  background: #EDB7ED;
   display: block;
 margin: 1em;
 }
 
 .person-1 {
-  color: cyan;
+  background: #8DDFCB;
   display: block;
 margin: 1em;
+}
+
+.person-0, .person-1 {
+  color: black;
+  padding: 1px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 1px 2px black;
+
 }
 
 .container {
@@ -26,6 +35,7 @@ margin: 1em;
   width: 800px;
   height: 450px;
   margin: 100px auto;
+  box-shadow: 10px 10px 1px 2px black;
 }
 
 .subcontainer {
@@ -48,7 +58,7 @@ margin: 1em;
 
 .css-typing {
   display: flex;
-  align-times: center;
+  align-items: center;
 }
 
 .replica {
@@ -59,16 +69,14 @@ margin: 1em;
 .css-typing p {
   display: inline-block;
   margin-left: 15px;
-  border-right: .15em solid orange;
-  font-family: "Courier";
+  /* font-family: "Courier"; */
   font-size: 14px;
   white-space: nowrap;
   overflow: hidden;
-   width: 35em;
-  -webkit-animation: type 3s steps(70, end);
-  animation: type 3s steps(70, end);
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+  /* -webkit-animation: type 3s steps(70, end); */
+  /* animation: type 3s steps(70, end); */
+  /* -webkit-animation-fill-mode: forwards; */
+  /* animation-fill-mode: forwards; */
 }
 
 
